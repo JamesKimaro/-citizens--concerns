@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Create Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form class="myform">
+
+            <div class="head">
+                <h1>Create An Account</h1> 
+            </div>
+
+            <div> 
+                <input class="input2" type="text" placeholder="First name" name="fname" id="fname" required >
+            </div>
+
+            <div>
+                <input class="input2" type="text" placeholder="Last name" name="lname" id="lname" required>
+            </div>
+
+            <div class="input2" >
+                <label for="gender">Gender:</label>
+                <select name="Gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="input2">
+                <label for="birtday">Birthday:</label>
+                <input  type="date" name="Birthday" value="" id="birthday" required>
+            </div>
+
+            <div>
+                <input class="input2" type="email" placeholder="email" name="email" id="email" required>
+                <input class="input2" type="tel" placeholder="Phone number" name="Phone number" id="pnumber" required>
+            </div>
+
+            <div>
+                <input class="input2" type="password" name="psw" id="psw" placeholder="Password" required>
+            </div>
+
+             <div>
+                <input class="input2" type="password" name="psw" id="confpsw" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="forgetpsw">
+                <input type="checkbox" name="termsofservice" value="" id="termsofservice" required> 
+                <label for="termsofservice">
+                I agree all statements in <a href="#">Terms of service</a> 
+                </label>      
+            </div>
+
+            <div>
+                <button class="loginbtn" type="submit">
+                <a href="#" target="_self">Sign Up</a>
+                </button>   
+            </div>
+
+            <div class="forgetpsw">
+                <p>Have already an account? <a href="login.html" target="_self" title="login">Login here</a></p>
+            </div>
+        </form>
+    </body>
+</html>
